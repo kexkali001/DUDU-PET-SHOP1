@@ -1,0 +1,111 @@
+/* Reseta as margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif; /* Adicionando uma fonte padrão */
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between; /* Corrigido de space-be para space-between */
+    padding: 30px;
+    background-color: aqua;
+}
+
+.menu > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.logo > .logo-1,
+.logo > .logo-2 {
+    color: black;
+}
+
+.titulo {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container-conteudo {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+    padding: 20px;
+}
+
+.texto {
+    max-width: 50%; /* Ajuste conforme necessário */
+    margin-right: 20px; /* Espaço entre texto e imagem */
+}
+
+.texto p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px; /* Espaço entre os parágrafos */
+}
+
+.container-conteudo > img {
+    max-width: 400px; /* Ajuste conforme necessário */
+    height: auto; /* Para manter a proporção */
+}
+
+.conteudo-contato h2 {
+    font-size: 30px; /* Aumentado para facilitar a leitura */
+}
+
+.conteudo-contato p {
+    font-size: 24px; /* Aumentado para facilitar a leitura */
+}
+
+.formulario .input {
+    margin-top: 10px;
+}
+
+.formulario .input label {
+    font-size: 20px; /* Aumentado para facilitar a leitura */
+}
+
+.formulario .input input,
+.formulario .input textarea {
+    font-size: 18px; /* Aumentado para facilitar a leitura */
+    padding: 10px;
+}
+
+button {
+    font-size: 18px; /* Aumentado para facilitar a leitura */
+    padding: 10px 15px;
+}
+
+/* Seção de rodapé (footer) */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    margin-top: 20px;
+}
+
+.container-conteudo {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    justify-content: space-between; /* Corrigido de space-be para space-between */
+    position: relative;
+}
+
+.imagem-esquerda,
+.imagem-direita {
+    width: 200px; /* Defina a largura desejada */
+    height: auto;
+}
+
+.imagem-com-texto {
+    position: relative;
+}
+
+.imagem-nova {
+    width: 200px; /* Ajuste a largura conforme necessário */
+    height: auto;
+}
